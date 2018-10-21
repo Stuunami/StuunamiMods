@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @EventBusSubscriber
 public class RegistryHandler {
+	
 	@SubscribeEvent
 	public static void RegisterItems(Register<Item> event)
 	{
