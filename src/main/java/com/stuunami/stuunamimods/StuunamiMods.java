@@ -27,7 +27,7 @@ public class StuunamiMods {
  
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        logger.info("TutorialMod.NAME " + "says hi!");
+        logger.info(Reference.NAME + " initializing");
         proxy.init(event);
     }
  
