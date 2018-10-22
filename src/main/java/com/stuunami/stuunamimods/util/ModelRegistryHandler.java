@@ -1,5 +1,6 @@
 package com.stuunami.stuunamimods.util;
 
+import com.stuunami.stuunamimods.init.StuunamiModsBlocks;
 import com.stuunami.stuunamimods.init.StuunamiModsItems;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -15,7 +16,11 @@ public class ModelRegistryHandler {
 	
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
-        registerModel(StuunamiModsItems.BASIC_ITEM);
+        //register items
+    	registerModel(StuunamiModsItems.BASIC_ITEM);
+        
+    	//register item blocks
+    	registerModel(Item.getItemFromBlock(StuunamiModsBlocks.BASIC_BLOCK));
     }
  
     private static void registerModel(Item item) {
