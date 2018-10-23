@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "stuunamimods:blocks/basic_block"
-    }
-}

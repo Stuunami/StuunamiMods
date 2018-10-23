@@ -18,15 +18,11 @@ public class RegistryHandler {
 	@SubscribeEvent
 	public static void RegisterItems(Register<Item> event)
 	{
-		final Item[] items = {
-				new ItemBasic("itemBasic","basic_item")
-		};
 		
 		final Item[] itemBlocks = {
-				new ItemBlock(StuunamiModsBlocks.BASIC_BLOCK).setRegistryName(StuunamiModsBlocks.BASIC_BLOCK.getRegistryName())
+				new ItemBlock(StuunamiModsBlocks.INVENTORY_PANEL).setRegistryName(StuunamiModsBlocks.INVENTORY_PANEL.getRegistryName())
 		};
 		
-		event.getRegistry().registerAll(items);
 		event.getRegistry().registerAll(itemBlocks);
 	}
 	
@@ -34,7 +30,7 @@ public class RegistryHandler {
 	public static void RegisterBlocks(Register<Block> event)
 	{
 		final Block[] blocks = {
-				new BlockBasic(Material.SAND, "blockBasic", "basic_block")
+				new InventoryPanelBlock("inventory_panel")
 		};
 		
 		event.getRegistry().registerAll(blocks);

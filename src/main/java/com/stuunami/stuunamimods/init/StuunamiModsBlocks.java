@@ -8,5 +8,5 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 @ObjectHolder(Reference.MODID)
 public class StuunamiModsBlocks {
 	//define all blocks here in ALL_CAPS and set to null
-	public static final Block BASIC_BLOCK = null;
+	public static final Block INVENTORY_PANEL = null;
 }

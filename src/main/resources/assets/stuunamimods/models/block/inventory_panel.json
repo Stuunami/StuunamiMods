@@ -1,0 +1,22 @@
+{
+	"parent": "block/orientable",
+	"__comment": "Designed by Stuunami with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"inventory_panel_side": "stuunamimods:blocks/inventory_panel_side",
+		"inventory_panel_off": "stuunamimods:blocks/inventory_panel_off"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 0, 0.5, 12 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 4 ], "texture": "#inventory_panel_side", "cullface": "down" },
+				"up": { "uv": [ 0, 12, 16, 16 ], "texture": "#inventory_panel_side", "cullface": "up" },
+				"north": { "uv": [ 0, 0, 16, 15.5 ], "texture": "#inventory_panel_side", "cullface": "north" },
+				"south": { "uv": [ 0, 0, 16, 15.5 ], "texture": "#inventory_panel_off", "cullface": "south" },
+				"west": { "uv": [ 12, 0, 16, 15.5 ], "texture": "#inventory_panel_side", "cullface": "west" },
+				"east": { "uv": [ 0, 0, 4, 15.5 ], "texture": "#inventory_panel_side", "cullface": "east" }
+			}
+		}
+	]
+}

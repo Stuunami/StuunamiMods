@@ -17,10 +17,10 @@ public class ModelRegistryHandler {
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
         //register items
-    	registerModel(StuunamiModsItems.BASIC_ITEM);
+    	//registerModel(StuunamiModsItems.BASIC_ITEM);
         
     	//register item blocks
-    	registerModel(Item.getItemFromBlock(StuunamiModsBlocks.BASIC_BLOCK));
+    	registerModel(Item.getItemFromBlock(StuunamiModsBlocks.INVENTORY_PANEL));
     }
  
     private static void registerModel(Item item) {

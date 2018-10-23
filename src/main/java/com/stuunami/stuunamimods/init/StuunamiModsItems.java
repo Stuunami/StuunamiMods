@@ -7,5 +7,5 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 
 @ObjectHolder(Reference.MODID)
 public class StuunamiModsItems {
-	public static final Item BASIC_ITEM = null;
+
 }
