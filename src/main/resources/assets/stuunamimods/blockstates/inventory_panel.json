@@ -3,8 +3,15 @@
     "defaults": {
         "model": "stuunamimods:inventory_panel"
     },
+    "textures": {
+		"inventory_panel_side": "stuunamimods:blocks/inventory_panel_side",
+		"inventory_panel_off": "stuunamimods:blocks/inventory_panel_off"
+	},
     "variants": {
-        "normal": [{}],
-        "inventory": [{}]
+        "facing=east": { "model": "stuunamimods:inventory_panel", "y": 270 },
+        "facing=south": { "model": "stuunamimods:inventory_panel" },
+        "facing=west": { "model": "stuunamimods:inventory_panel", "y": 90 },
+        "facing=north": { "model": "stuunamimods:inventory_panel", "y": 180 },
+        "normal": { "model": "stuunamimods:inventory_panel" }
     }
 }
